@@ -1,5 +1,8 @@
 import ast
 
+import libcst as cst
+
+
 def compare_ast_nodes(node1, node2):
     if type(node1) != type(node2):
         return False
@@ -22,3 +25,12 @@ def compare_ast_nodes(node1, node2):
     else:
         return node1 == node2
 
+
+# def compare_ast_nodes(src1, src2):
+#     # if not modified_tree.deep_equals(source_tree):
+#     # cst.parse_module(type_comment)
+
+#     src1_tree = cst.parse_module(src1)
+#     src2_tree = cst.parse_module(src2)
+
+#     return src1_tree.deep_equals(src2_tree)
