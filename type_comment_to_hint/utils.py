@@ -6,7 +6,7 @@ import libcst as cst
 def compare_ast_nodes(node1, node2):
     if type(node1) != type(node2):
         return False
-    
+
     if isinstance(node1, ast.AST):
         for field, value1 in ast.iter_fields(node1):
             value2 = getattr(node2, field, None)
