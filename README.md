@@ -1,3 +1,8 @@
+# Use com2ann instead!
+https://github.com/ilevkivskyi/com2ann
+
+I started working on this before discovering com2ann, that is much more mature so just use that.
+
 ## `type-comment-to-annotation`
 
 🚧 Under active development 🚧
